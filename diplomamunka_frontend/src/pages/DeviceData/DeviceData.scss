@@ -1,0 +1,44 @@
+.title-text {
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 40px;
+  padding-bottom: 42px;
+}
+
+.hint-text {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 24px;
+  padding-bottom: 20px;
+}
+
+.device-wrapper {
+  @media only screen and (max-width: 991px) {
+    padding-top: 42px;
+  }
+
+  .device-data-wrapper {
+    padding: 20px;
+    border: 1px solid #111;
+    border-radius: 50px;
+
+    .disabled-refresh {
+      opacity: 0.4;
+      cursor: none;
+    }
+
+    .inside-data-wrapper {
+      cursor: pointer;
+    }
+
+    .icon-wrapper {
+      cursor: pointer;
+      padding: 0 10px;
+    }
+  }
+}
+
+.user-managment-wrapper {
+  overflow-x: auto;
+}
+

@@ -1,0 +1,23 @@
+.title-text {
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 40px;
+  padding-bottom: 42px;
+}
+
+.forum-item-wrapper {
+  padding: 20px;
+  border: 1px solid #111;
+  border-radius: 10px;
+
+  .forum-title {
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 600;
+  }
+
+  .forum-description {
+    font-size: 16px;
+    line-height: 18px;
+  }
+}

@@ -1,0 +1,128 @@
+.navbar-wrapper {
+  padding-left: 25px;
+
+  .navbar-dropdown-wrapper {
+    text-decoration: none;
+    padding-left: 10px;
+    padding-right: 10px;
+
+    @media only screen and (max-width: 991px) {
+      .query-div {
+        padding-bottom: 20px;
+      }
+    }
+
+    ::v-deep .nav-link {
+      padding: 0;
+    }
+
+    ::v-deep .dropdown-toggle{
+      color: #fff;
+    }
+
+    ::v-deep a {
+      color: black;
+      text-decoration: none;
+    }
+
+    ::v-deep ul {
+      @media only screen and (max-width: 991px) {
+        background-color: transparent;
+        border: 0;
+      }
+
+      li {
+        @media only screen and (max-width: 991px) {
+          :hover {
+            background-color: transparent;
+            opacity: 0.8;
+          }
+        }
+
+        a {
+          @media only screen and (max-width: 991px) {
+            color: #fff;
+          }
+        }
+      }
+
+      div {
+        @media only screen and (max-width: 991px) {
+          color: #fff;
+        }
+      }
+    }
+
+    &.collapse-padding {
+      @media only screen and (max-width: 991px) {
+        padding-right: 0;
+        padding-left: 0;
+        padding-top: 20px;
+      }
+    }
+
+    &.navbar-link {
+      color: #fff;
+
+    }
+  }
+
+  .navbar-div-item {
+    text-decoration: none;
+
+    padding-left: 10px;
+    padding-right: 10px;
+    cursor: pointer;
+
+    :hover {
+      opacity: 0.6;
+    }
+
+    &.collapse-padding {
+      @media only screen and (max-width: 991px) {
+        padding-right: 0;
+        padding-left: 0;
+        padding-top: 20px;
+      }
+    }
+
+    &.collapse-padding-top-item {
+      color: #fff;
+      @media only screen and (max-width: 991px) {
+        padding-right: 0;
+        padding-left: 0;
+        padding-bottom: 20px;
+      }
+    }
+
+    &.navbar-link {
+      color: #fff;
+
+    }
+  }
+
+  .navbar-right-wrapper {
+    margin-left: auto;
+    margin-right: 20px;
+    color: #fff;
+
+    .username-text {
+      color: #d0d0d0;
+
+      @media only screen and (max-width: 991px) {
+        display: none;
+      }
+    }
+  }
+
+  .separator {
+    height: 25px;
+    width: 2px;
+    background-color: #fff;
+    margin: 0 15px;
+
+    @media only screen and (max-width: 991px) {
+      display: none;
+    }
+  }
+}
