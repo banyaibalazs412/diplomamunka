@@ -10,7 +10,7 @@ const deviceRoutes = require('./routes/deviceRoutes')
 const noteBoardRoutes = require('./routes/noteBoardRoutes')
 const configRoutes = require('./routes/configRoutes')
 
-const connectionString = 'mongodb+srv://balazs:jelszo@test.nkkzu.mongodb.net/garden_monitoring_app?retryWrites=true&w=majority'
+const connectionString = 'connectionStringFromMongoDB'
 
 app.use(bodyParser.json())
 app.use(bodyParser.urlencoded({ extended: true }))
