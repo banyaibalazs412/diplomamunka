@@ -6,3 +6,4 @@ diplomamunka_frontend -> Weboldal,
 ESP_code -> ESP32 mikrovezélrő Arduino kód,
 greenHouseMonitoring -> ARM Cortex M alapú mikrovezérlő (STM32L452RE-P) kód,
 node_api -> ExpressJs Server oldali API,
+abrak_egyeb -> Minden a diplomamunkához tartozó ábra, 3D nyomtatáshoz szükséges fileok...
